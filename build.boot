@@ -1,5 +1,5 @@
 (def project 'clj-nifi-bundle/boot-template)
-(def version "0.1.0-SNAPSHOT")
+(def version "0.1.0")
 
 (set-env! :resource-paths #{"resources" "src"}
           :dependencies   '[[org.clojure/clojure "RELEASE"]
@@ -8,8 +8,8 @@
 (task-options!
  pom {:project     project
       :version     version
-      :description "FIXME: write description"
-      :url         "http://example/FIXME"
+      :description "A Boot template for clj-nifi projects."
+      :url         "https://github.com/big-solutions/clj-nifi-bundle"
       :scm         {:url "https://github.com/yourname/clj-nifi-bundle"}
       :license     {"Eclipse Public License"
                     "http://www.eclipse.org/legal/epl-v10.html"}})
