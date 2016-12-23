@@ -6,7 +6,7 @@ A Boot template for clj-nifi projects.
 
 Crete new projects from template:
 
-`boot -d clj-nifi-bundle/boot-template:0.1.0-SNAPSHOT -d seancorfield/boot-new new -t clj-nifi-bundle -n YOUR-PROJECT-NAME`
+`boot -d clj-nifi-bundle/boot-template -d seancorfield/boot-new new -t clj-nifi-bundle -n YOUR-PROJECT-NAME`
 
 Optionally, if your IDE needs a `project.clj` to resolve dependencies, you can generate it like this:
 
